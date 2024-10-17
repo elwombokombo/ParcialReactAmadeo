@@ -1,0 +1,33 @@
+/* Estilos para los campos de entrada de texto y número */
+input[type="text"],
+input[type="number"] {
+  width: 90%; /* Ancho del 90% del contenedor */
+  padding: 10px; /* Espaciado interno de 10px */
+  margin: 10px 0; /* Margen superior e inferior de 10px */
+  border: 1px solid #ccc; /* Borde de 1px sólido y color gris claro */
+  border-radius: 4px; /* Bordes redondeados de 4px */
+}
+
+/* Estilos para el botón de agregar */
+.add-button {
+  padding: 10px 20px; /* Espaciado interno de 10px arriba y abajo, 20px a los lados */
+  font-size: 16px; /* Tamaño de fuente de 16px */
+  color: #fff; /* Color del texto blanco */
+  background-color: #38cacf; /* Color de fondo */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados de 4px */
+  cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+  margin-top: 20px; /* Margen superior de 20px */
+}
+
+/* Estilos para el botón de agregar al pasar el cursor sobre él */
+.add-button:hover {
+  background-color: #32a4a8; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos para el botón de agregar cuando está deshabilitado */
+.add-button:disabled {
+  background-color: grey; /* Color de fondo gris */
+  cursor: not-allowed; /* Cambia el cursor a no permitido */
+}
